@@ -1,18 +1,37 @@
-# Salesforce DX Project: Next Steps
+📞 Salesforce Phone Validation Integration
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+🚀 Overview
+This project integrates Salesforce with the NumVerify API to validate phone numbers in real-time.
 
-## How Do You Plan to Deploy Your Changes?
+ 🧩 Features
+- API Callouts using Apex
+- JSON Parsing (JSON2Apex)
+- Trigger-based automation
+- Custom Field update (ValidPhoneNumber__c)
+- Test class with mock callouts
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+ 🔄 Flow
+1. User creates Contact
+2. Trigger fires
+3. Apex sends API request
+4. Response parsed
+5. Contact updated with validation result
 
-## Configure Your Salesforce DX Project
+ 🛠️ Tech Stack
+- Salesforce Apex
+- REST API (Numverify)
+- VS Code + Salesforce CLI
+- Git & GitHub
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+ 📂 Components
+- Apex Class: Validatephone
+- JSON Parser: NewJSon2Apex
+- Trigger: ContactPhoneTrigger
+- Test Class: TestPhoneValidationResponse
 
-## Read All About It
+🧪 Testing
+- Used HttpCalloutMock for API simulation
+- Ensured no exceptions and proper coverage
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+ 👨‍💻 Author
+ Alkapelli Shiva Sai

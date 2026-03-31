@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Integrating the Numverify API into your application will enable you to verify phone numbers at the point of entry, protecting you from fraud and increasing the quality of your leads.</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://apilayer.net</url>
+</RemoteSiteSetting>

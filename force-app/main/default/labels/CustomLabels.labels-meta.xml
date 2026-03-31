@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>PhoneNumverify_key</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PhoneNumverify key</shortDescription>
+        <value>db2da185039acc76ccbe9730ae7ca100</value>
+    </labels>
+</CustomLabels>
